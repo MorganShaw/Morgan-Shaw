@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/morgan-shaw/precache-manifest.d2fb7c7d78f9db92e2d8e53e456f8617.js"
+  "/morgan-shaw/precache-manifest.023f5ca257c808702e8f67a226d5587e.js"
 );
 
 self.addEventListener('message', (event) => {
