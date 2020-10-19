@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/morgan-shaw/static/css/main.5f361e03.chunk.css",
+    "main.js": "/morgan-shaw/static/js/main.6fffaaf6.chunk.js",
+    "main.js.map": "/morgan-shaw/static/js/main.6fffaaf6.chunk.js.map",
+    "runtime-main.js": "/morgan-shaw/static/js/runtime-main.ae5f9806.js",
+    "runtime-main.js.map": "/morgan-shaw/static/js/runtime-main.ae5f9806.js.map",
+    "static/js/2.19a3a793.chunk.js": "/morgan-shaw/static/js/2.19a3a793.chunk.js",
+    "static/js/2.19a3a793.chunk.js.map": "/morgan-shaw/static/js/2.19a3a793.chunk.js.map",
+    "index.html": "/morgan-shaw/index.html",
+    "precache-manifest.d2fb7c7d78f9db92e2d8e53e456f8617.js": "/morgan-shaw/precache-manifest.d2fb7c7d78f9db92e2d8e53e456f8617.js",
+    "service-worker.js": "/morgan-shaw/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/morgan-shaw/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.19a3a793.chunk.js.LICENSE.txt": "/morgan-shaw/static/js/2.19a3a793.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/morgan-shaw/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae5f9806.js",
+    "static/js/2.19a3a793.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.6fffaaf6.chunk.js"
+  ]
+}
