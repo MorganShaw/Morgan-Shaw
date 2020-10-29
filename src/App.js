@@ -3,8 +3,11 @@ import React from 'react';
 import logo from './Initials_Logo_MS.png';
 // import me from './final_answer_des.jpeg';
 import me from './last_attempt_edited_des.jpeg';
+// import arrow from './6438188.png';
+import arrow from './downward.svg';
 import './reset.css';
 import './App.css';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import './Components/About';
 // import './Components/Contact';
 // import './Components/Work';
@@ -35,29 +38,40 @@ function App() {
           <div className='pic-overlay'>
             <div className='about-text'>
               <div className='subheading'>
-                <h1>Curiosity. </h1>
-                <h1>Teamwork. </h1>
-                <h1>Integrity. </h1>
+                <h1 className='smaller'>Composer → MPA → Teacher → Flight Attendant → </h1>
+                <br/>
+                <br/>
+                <h1 className='bigger'>Full-Stack Web Developer </h1>
+                {/* <h1>Teamwork. </h1>
+                <h1>Growth. </h1> */}
                 
               </div>
-              <p>What do you get when you take a composer/MPA grad/teacher/flight attendant and put her through a coding bootcamp? A creative, growth-oriented web developer who can work with a diverse group of people (and industries), and who loves to solve problems.
-              <br/>
-              <br/>
-              I code primarily in JavaScript, HTML, and CSS, using React, Node, Express, and PostgreSQL. My toolbox also includes RESTful APIs, Postman, Massive, Git, GitHub, Debugging, JSON, React Context and Hooks, Redux, SCSS, and Socket.IO. 
-
+              <p> I took an unconventional path to get here, but it’s made me a creative, analytical, growth-oriented, team-driven professional who can work with a diverse group of people (and industries), learn quickly, and see the bigger picture. 
               </p>
               <br/>
-              <p>Let's talk about how I can contribute to your team.</p>
               <br/>
-              <p>More about me...</p>
+              {/* <div className='about-text-styled'>
+                <p>I code primarily in <p  className='bigger-focus'>JavaScript, HTML, and CSS, </p>using React, Node, Express, and PostgreSQL. My toolbox also includes RESTful APIs, Postman, Massive, Git, GitHub, Debugging, JSON, React Context and Hooks, Redux, SCSS, and Socket.IO. 
+                </p>
+              </div> */}
+              <p>I code primarily in <span  className='bigger-focus'>JavaScript</span>, <span  className='bigger-focus'>HTML</span>, and <span  className='bigger-focus'>CSS</span>, using <span  className='bigger-focus'>React</span>, <span  className='bigger-focus'>Node</span>, <span  className='bigger-focus'>Express</span>, and <span  className='bigger-focus'>PostgreSQL</span>. My toolbox also includes RESTful APIs, Postman, Massive, Git, GitHub, Debugging, JSON, React Context and Hooks, Redux, SCSS, and Socket.IO. 
+              </p>
+              <br/>
+              <br/>
+              <p>If this sounds good to you, take a minute to look around and see how I can contribute to your team. </p>
 
+            </div>
+            <div className='arrow'>
+             
+              <img src={arrow} alt='arrow'/>
+            
             </div>
           </div>
           {/* <div className='picture'> */}
             {/* <img src={me} alt='seated with laptop and dog'/> */}
           {/* </div> */}
           
-
+           
         </section>
       </section>
     </div>

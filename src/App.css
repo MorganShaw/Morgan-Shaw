@@ -21,6 +21,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Galada&family=Source+Serif+Pro:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
 
 .App {
   height: 200vh;
@@ -41,9 +42,11 @@
 }
 header {
   /* margin-top: 20px; */
-  background-color: white;
+  /* background-color: white; */
   height: 80px;
-  width: 1200px;
+  width: calc(100% - 40px);
+  padding-right: 20px;
+  padding-left: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -59,8 +62,8 @@ header {
 }
 .logo-container {
   /* margin-left: 15px; */
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,8 +71,8 @@ header {
 }
 
 .logo {
-  height: 40px;
-  width: 30px;
+  height: 30px;
+  width: 25px;
   font-family: 'Galada', cursive;
   font-family: 'Megrim', cursive;
 
@@ -77,7 +80,7 @@ header {
   color: rgb(226, 69, 21) ;
 
   font-weight: bold;
-  font-size: 32px;
+  font-size: 26px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,13 +90,15 @@ header {
 
 }
 
-.picture img{
+/* .picture img{
   height: 400px;
-  /* width: 100vw; */
+  width: 90vw;
   background-image: contain;
   display: flex;
   justify-content: center; 
-}
+  background-size: cover;
+  padding: 20px;
+} */
 
 
 /* .greeting {
@@ -111,14 +116,6 @@ header {
   animation: type 8s steps(60, end); 
 } */
 
-
-/* GLOBAL STYLES */
-/* body {
-  background: #333;
-  padding-top: 5em;
-  display: flex;
-  justify-content: center;
-} */
 
 .name-title {
   display: flex;
@@ -146,6 +143,7 @@ header {
   font-family: 'Lato', sans-serif;
   font-family: 'Source Serif Pro', serif;
   font-family: 'GFS Neohellenic', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 
   font-size: 30px;
   font-weight: 500;
@@ -182,6 +180,7 @@ header {
   font-family: 'Lato', sans-serif;
   font-family: 'Source Serif Pro', serif;
   font-family: 'GFS Neohellenic', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 
   font-size: 18px;
   font-weight: bolder;
@@ -242,59 +241,94 @@ h2.link:hover, h2:visited.link:hover {
 .main-content {
   margin-top: 50px;
   height: 550px;
-  width: 1200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+  width: calc(100% - 40px);
+  /* display: flex; */
+  /* flex-direction: row;
+  justify-content: flex-start; */
+  /* align-items: center; */
   background-image: url('./cropped_more_right_des.jpeg');
   background-size: cover;
   /* border: black solid 2px; */
 }
 
 .pic-overlay {
-  width: 450px;
-  height: 500px;
-  margin-left: 30px;
+  width: 100%;
+  height: 100%;
+  /* padding-left: 30px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0.747);
+  /* align-items: center; */
+  background-color: rgba(2, 2, 2, 0.493);
   /* border: black solid 2px; */
 }
 .about-text {
+  width: 450px;
   display: flex;
+  
   /* justify-content: center; */
   flex-direction: column;
-  padding: 10px;
+  /* padding: 10px; */
   align-items: flex-start;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-left: 40px;
 }
 .about-text > p {
   font-family: 'Lato', sans-serif;
   font-family: 'Source Serif Pro', serif;
   font-family: 'GFS Neohellenic', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  
   font-size: 20px;
-  /* margin-right: 70px; */
-  display: flex;
+  color: white;
+  /* margin-right: 400px; */
+  /* display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-
+  letter-spacing: .5px; */
 }
 
 .subheading {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-family: 'Galada', cursive;
   margin-bottom: 30px;
+  color: white;
+}
+
+.smaller {
+  font-size: 20px;
+}
+.bigger {
+  font-size: 40px;
+}
+.about-text-styled {
+  display: flex;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.bigger-focus {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .subheading > h1 {
   display: flex;
   flex-direction: row;
   font-family: 'Galada', cursive;
-  font-size: 28px;
-  margin-right: 10px;
+  /* font-size: 28px; */
+  /* margin-right: 10px; */
 
 }
+
+.arrow {
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  color: white;
+}
+
+
