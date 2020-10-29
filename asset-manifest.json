@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/morgan-shaw/static/css/main.c27ce77d.chunk.css",
-    "main.js": "/morgan-shaw/static/js/main.4c6c6c27.chunk.js",
-    "main.js.map": "/morgan-shaw/static/js/main.4c6c6c27.chunk.js.map",
+    "main.css": "/morgan-shaw/static/css/main.e5d5a88d.chunk.css",
+    "main.js": "/morgan-shaw/static/js/main.62003371.chunk.js",
+    "main.js.map": "/morgan-shaw/static/js/main.62003371.chunk.js.map",
     "runtime-main.js": "/morgan-shaw/static/js/runtime-main.ae5f9806.js",
     "runtime-main.js.map": "/morgan-shaw/static/js/runtime-main.ae5f9806.js.map",
-    "static/js/2.d442ebe8.chunk.js": "/morgan-shaw/static/js/2.d442ebe8.chunk.js",
-    "static/js/2.d442ebe8.chunk.js.map": "/morgan-shaw/static/js/2.d442ebe8.chunk.js.map",
+    "static/js/2.f586a4af.chunk.js": "/morgan-shaw/static/js/2.f586a4af.chunk.js",
+    "static/js/2.f586a4af.chunk.js.map": "/morgan-shaw/static/js/2.f586a4af.chunk.js.map",
     "index.html": "/morgan-shaw/index.html",
-    "precache-manifest.023f5ca257c808702e8f67a226d5587e.js": "/morgan-shaw/precache-manifest.023f5ca257c808702e8f67a226d5587e.js",
+    "precache-manifest.1630bfdabb75c4c308d76ea11c22c43f.js": "/morgan-shaw/precache-manifest.1630bfdabb75c4c308d76ea11c22c43f.js",
     "service-worker.js": "/morgan-shaw/service-worker.js",
-    "static/css/main.c27ce77d.chunk.css.map": "/morgan-shaw/static/css/main.c27ce77d.chunk.css.map",
-    "static/js/2.d442ebe8.chunk.js.LICENSE.txt": "/morgan-shaw/static/js/2.d442ebe8.chunk.js.LICENSE.txt"
+    "static/css/main.e5d5a88d.chunk.css.map": "/morgan-shaw/static/css/main.e5d5a88d.chunk.css.map",
+    "static/js/2.f586a4af.chunk.js.LICENSE.txt": "/morgan-shaw/static/js/2.f586a4af.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/morgan-shaw/static/media/cropped_more_right_des.7d391eed.jpeg",
+    "static/media/Initials_Logo_MS.png": "/morgan-shaw/static/media/Initials_Logo_MS.57557018.png",
+    "static/media/last_attempt_edited_des.jpeg": "/morgan-shaw/static/media/last_attempt_edited_des.2c122a33.jpeg",
+    "static/media/white-transparent-arrow-25.png": "/morgan-shaw/static/media/white-transparent-arrow-25.3ab3d0b8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ae5f9806.js",
-    "static/js/2.d442ebe8.chunk.js",
-    "static/css/main.c27ce77d.chunk.css",
-    "static/js/main.4c6c6c27.chunk.js"
+    "static/js/2.f586a4af.chunk.js",
+    "static/css/main.e5d5a88d.chunk.css",
+    "static/js/main.62003371.chunk.js"
   ]
 }
