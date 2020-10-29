@@ -1,19 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600&display=swap');
+@font-face{
+  font-family:"Fertigo W01 Regular";
+  src:url("Fonts/942328/07e296e0-f4b2-459a-9e50-1ce5f402170c.woff2") format("woff2"),url("Fonts/942328/5308ae1c-341f-49f2-a276-926c63ed8297.woff") format("woff");
+}
+@font-face{
+  font-family:"Corda W01 Light";
+  src:url("Fonts/1438825/09b26e7c-9b91-4f2e-a93f-fc50d4e55c76.woff2") format("woff2"),url("Fonts/1438825/4fb83e43-d589-4bf4-a40f-542cb15dd8da.woff") format("woff");
+}
+@font-face{
+  font-family:"Calluna W01 Regular";
+  src:url("Fonts/942319/62ad54ed-a020-4fc1-a3dc-21e31bf8d52a.woff2") format("woff2"),url("Fonts/942319/c1b12dfe-db8e-49f0-94ac-7ad0bf217f90.woff") format("woff");
+}
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600&family=Jaldi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Source+Serif+Pro:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
 
 .App {
-  height: 100vh;
-  width: 100vw;
+  height: 200vh;
+  /* width: 100%; */
   background-color: rgb(34, 33, 34);
   background-color: white;
+  background-color: rgba(214, 167, 48, 0.856);
+  background-color: black;
+  padding: 20px;
 }
 
-header {
-  background-color: rgb(49, 48, 49);
-  background-color: rgb(92, 84, 92);
+.whole-page {
   background-color: white;
-  height: 70px;
-  width: 100%;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+header {
+  /* margin-top: 20px; */
+  /* background-color: white; */
+  height: 80px;
+  width: calc(100% - 40px);
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-stuff {
+  height: 80px;
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo-container {
+  /* margin-left: 15px; */
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: black 3px solid;
+}
+
+.logo {
+  height: 30px;
+  width: 25px;
+  font-family: 'Galada', cursive;
+  font-family: 'Megrim', cursive;
+
+  color: rgb(226, 86, 21) ;
+  color: rgb(226, 69, 21) ;
+
+  font-weight: bold;
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: rgb(221, 166, 14) 2px solid;
+  border-bottom: rgb(221, 138, 14) 2px solid;
+
+
+}
+
+/* .picture img{
+  height: 400px;
+  width: 90vw;
+  background-image: contain;
+  display: flex;
+  justify-content: center; 
+  background-size: cover;
+  padding: 20px;
+} */
+
+
 /* .greeting {
   color: white;
   color: white;
@@ -30,149 +117,218 @@ header {
 } */
 
 
-/* GLOBAL STYLES */
-/* body {
-  background: #333;
-  padding-top: 5em;
+.name-title {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-} */
-
-/* DEMO-SPECIFIC STYLES */
-.typewriter {
+  align-items: center;
   padding: 20px;
-  color: #fff;
-  color: rgb(59, 43, 59);
-  font-size: 38px;
-  font-family: monospace;
-  font-family: 'Fira Code', monospace;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  /* border-right: .15em solid orange; The typewriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
+  margin-top: 10px;
 }
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
+.name {
+  /* padding: 20px; */
+  font-size: 34px;
+  font-weight: normal;
+  font-family: 'Megrim', cursive;
+  font-family: 'Galada', cursive;
 
-.picture-border {
-  /* background-image: url('johannes-plenio-6XUA5KQ9-1k-unsplash.jpg');
-  background-image: url('michael-dziedzic--a_LuSsIxHM-unsplash.jpg'); */
-  /* height: 16px;
-  width: 100%;
-  background-size: cover;
-  background-color: rgb(41, 30, 41); */
-  height: 10px;
-  width: 100%;
-  background-color: gray;
-}
-
-.main-section {
-  height: calc(100vh - 80px);
   display: flex;
-  justify-content: space-evenly;
-
+  margin-right: 10px;
+  
 }
 
-.column {
-  height: 100%;
-  width: 33.33%;
-  border: solid 1px gray;
-  overflow: hidden;
-}
+.title {
+  font-family: 'Jaldi', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Source Serif Pro', serif;
+  font-family: 'GFS Neohellenic', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 
-.child {
-  height: 100%;
-  width: 100%;
-  transition: all .5s;
+  font-size: 30px;
+  font-weight: 500;
   display: flex;
-  justify-content: center;
+  padding-bottom: 10px;
+  color: rgb(58, 57, 57);
+  color: rgb(221, 138, 14) ;
+  color: rgb(231, 60, 7) ;
+  /* background: linear-gradient(to right,rgb(221, 138, 14) 0%, rgb(231, 60, 7) 100% );
+  background: linear-gradient(to right, rgb(231, 60, 7) 0%, rgb(221, 138, 14) 100% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  
+}
+
+/* .text {
+	text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font: {
+		size: 20vw;
+		family: $font;
+	};
+} */
+
+.links {
+  height: 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  /* position: relative; */
+  font-family: 'Lato', sans-serif;
+  font-family: 'Source Serif Pro', serif;
+  font-family: 'GFS Neohellenic', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: -1px;
+  /* padding: 10px;   */
+  /* margin-right: 20px; */
 }
 
-
-
-.left { 
+h2, h2:visited {
+  height: 20px;
+  /* width: 60px; */
+  text-align: center;
+  padding-bottom: 5px;
+  text-decoration: none;
   position: relative;
-  /* background-image: url('praewthida-k-5Ui5glVjUAQ-unsplash.jpg');
-  opacity: .2; */
-  background-size: cover;
+  /* transition: all 0.2s ease-in-out; */
+  /* position: relative; */
+  /* border:  rgba(221, 138, 14, 0) 2px solid; */
 }
 
-.left::before {
+/* border:  rgba(221, 138, 14, 0) 2px solid; */
+/* h2:link {
+  text-decoration: none;
+} */
+/* 
+h2:visited {
+  text-decoration: none;
+} */
+
+/* h2:hover, h2:active {
+ 
+  cursor: pointer;
+} */
+
+
+h2:after, h2:visited:after {
   content: '';
-  background-image: url('praewthida-k-5Ui5glVjUAQ-unsplash.jpg');
-  background-size: cover;
+  height: 3px;
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.2;
-
-
-}
-
-.column:hover .child,
-.column:focus .child {
-  transform: scale(1.2);
-}
-
-.mid {
-  background-image: url('robert-horvick-1R4uPYipCFM-unsplash.jpg');
-  /* opacity: .2; */
-  background-size: cover;
-}
-
-.right {
-  background-image: url('peyman-farmani-5Sa1KwOYVoo-unsplash.jpg');
-  /* opacity: .2; */
-  background-size: cover;
-}
-
-.text {
-  color: rgb(49, 48, 49);
-  font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* .overlay {
-  /* position: fixed; Sit on top of the page content */
-  /* display: none; Hidden by default */
-  /* width: 100%; Full width (cover the whole page) */
-  /* height: 100%; Full height (cover the whole page) */
-  /* top: 0;
-  left: 0;
-  right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5); Black background with opacity */
-  /* background-color: rgba(255, 255, 255, 0.63);
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-  /* cursor: pointer; /* Add a pointer on hover */
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-/* } */ 
+  left: 0;
+  width: 0%;
+  background: rgb(231, 60, 7);
+  transition: 0.2s;
+}
+h2:hover:after, h2:visited:hover:after {
+  width: 100%;
 
-/* span {
-  color: white; 
-  font-family: sans-serif;
-  padding: 25%;
-  position: absolute;
-} */
-
-/* .parent:hover span,
-.parent:focus span {
+}
+h2.link, h2:visited.link {
   display: block;
-} */
+  /* padding: 0.5em; */
+}
+h2.link:hover, h2:visited.link:hover {
+  background: white;
+}
+
+.main-content {
+  margin-top: 50px;
+  height: 550px;
+  width: calc(100% - 40px);
+  /* display: flex; */
+  /* flex-direction: row;
+  justify-content: flex-start; */
+  /* align-items: center; */
+  background-image: url('./cropped_more_right_des.jpeg');
+  background-size: cover;
+  /* border: black solid 2px; */
+}
+
+.pic-overlay {
+  width: 100%;
+  height: 100%;
+  /* padding-left: 30px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: rgba(2, 2, 2, 0.493);
+  /* border: black solid 2px; */
+}
+.about-text {
+  width: 450px;
+  display: flex;
+  
+  /* justify-content: center; */
+  flex-direction: column;
+  /* padding: 10px; */
+  align-items: flex-start;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
+.about-text > p {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Source Serif Pro', serif;
+  font-family: 'GFS Neohellenic', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+  font-size: 20px;
+  color: white;
+  /* margin-right: 400px; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  letter-spacing: .5px; */
+}
+
+.subheading {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Galada', cursive;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.smaller {
+  font-size: 20px;
+}
+.bigger {
+  font-size: 40px;
+}
+.about-text-styled {
+  display: flex;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.bigger-focus {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subheading > h1 {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Galada', cursive;
+  /* font-size: 28px; */
+  /* margin-right: 10px; */
+
+}
+
+.arrow {
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  color: white;
+}
+
+

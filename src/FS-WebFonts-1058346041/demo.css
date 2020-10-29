@@ -1,0 +1,8 @@
+    @font-face{
+        font-family:"Fertigo W01 Regular";
+        src:url("Fonts/942328/07e296e0-f4b2-459a-9e50-1ce5f402170c.woff2") format("woff2"),url("Fonts/942328/5308ae1c-341f-49f2-a276-926c63ed8297.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Corda W01 Light";
+        src:url("Fonts/1438825/09b26e7c-9b91-4f2e-a93f-fc50d4e55c76.woff2") format("woff2"),url("Fonts/1438825/4fb83e43-d589-4bf4-a40f-542cb15dd8da.woff") format("woff");
+    }
