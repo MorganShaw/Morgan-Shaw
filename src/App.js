@@ -2,7 +2,7 @@ import React from 'react';
 // import {Link} from 'react-router-dom';
 import logo from './Initials_Logo_MS.png';
 // import me from './final_answer_des.jpeg';
-import me from './cropped_more_right_des.jpeg';
+import me from './last_attempt_edited_des.jpeg';
 import './reset.css';
 import './App.css';
 // import './Components/About';
@@ -25,9 +25,10 @@ function App() {
             </div>
           </div>
           <div className='links'>
-            <h2>Home</h2>
-            <h2>Work</h2>
-            <h2>Contact</h2>
+            <h2 className='link'>Home</h2>
+            <h2 className='link'>About</h2>
+            <h2 className='link'>Work</h2>
+            <h2 className='link'>Contact</h2>
           </div>
         </header>
         <section className='main-content'>
@@ -39,13 +40,14 @@ function App() {
                 <h1>Integrity. </h1>
                 
               </div>
-              <p>What do you get when you cross a web developer with a flight attendant, MPA grad, Disney intern, and composer? In a nutshell, you get a curious, creative, detail- and growth-oriented tech professional who brings a variety of skills to the programming table, including the ability to work with a diverse group of people and industries, to hone in on specific areas for improvement, and to solve complex problems.
+              <p>What do you get when you take a composer/MPA grad/teacher/flight attendant and put her through a coding bootcamp? A creative, growth-oriented web developer who can work with a diverse group of people (and industries), and who loves to solve problems.
               <br/>
               <br/>
-              In my college days, I spent hours behind a computer bringing my music to life, and I've come full circle to do the same thing with web apps today. 
+              I code primarily in JavaScript, HTML, and CSS, using React, Node, Express, and PostgreSQL. My toolbox also includes RESTful APIs, Postman, Massive, Git, GitHub, Debugging, JSON, React Context and Hooks, Redux, SCSS, and Socket.IO. 
+
               </p>
               <br/>
-              <p>My software development skills are new, but my passion for learning, growth, and adding value to an organization is not. Let's talk about how I can contribute to your team.</p>
+              <p>Let's talk about how I can contribute to your team.</p>
               <br/>
               <p>More about me...</p>
 
